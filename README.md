@@ -1,2 +1,15 @@
 # pspice-to-spice
-Convert PSPICE to ngspice-compatible SPICE for simulation
+
+Convert PSPICE to ngspice-compatible SPICE for simulation.
+
+## Development
+
+```bash
+bun install
+bun test
+bun run typecheck
+bun run format:check
+```
+
+This repo is bootstrapped as a source-distributed TypeScript package. The public
+entrypoint is [lib/index.ts](./lib/index.ts).
